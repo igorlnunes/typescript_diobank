@@ -1,8 +1,9 @@
 import { Button } from '@chakra-ui/react';
+import { MouseEventHandler } from 'react';
 
 interface IButton {
   title: string;
-  event: () => void
+  event: MouseEventHandler;
 }
 
 export const ButtonCustom = ({ title, event }: IButton) => {
