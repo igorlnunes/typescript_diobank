@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;600&display=swap');
 
 .header {
-    border: #2596be dotted 2px;
-    background-color: #041014;
+    border: #041014 dotted 2px;
+    background-color: #2596be;
+    padding: 25px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .logo {
-    background-color: #2596be;
     height: 25vh;
     font-family: MuseoModerno, sans-serif;
     color: #041014;
@@ -16,8 +21,5 @@
     font-size: 8rem;
 
 
-    display: flex;
 
-    align-items: center;
-    justify-content: center;
 }
