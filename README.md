@@ -22,7 +22,7 @@ O projeto DioBank consiste na implementação de várias funcionalidades bancár
 
 ## Acesso à Aplicação
 
-Para acessar a aplicação DioBank, [clique aqui](#) (link da aplicação).
+Para acessar a aplicação DioBank, [clique aqui](https://typescript-diobank.vercel.app/) (link da aplicação).
 
 **Observação:** Os itens de deploy no Netlify e compartilhamento do link da página não estão incluídos neste README.
 
