@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import './Header.css'
 import { AppContext } from '../AppContext';
-import { ButtonCustom } from '../Button/ButtonCustom';
+import { ButtonCustom } from '../ButtonCustom';
 import { useNavigate } from 'react-router-dom';
 import { changeLocalStorage } from '../../services/storage';
 
@@ -11,7 +11,7 @@ export const Header = () => {
   const navigate = useNavigate();
 
   const logout = () => {
-    changeLocalStorage({ login: false })
+    changeLocalStorage({ login: false, user: '', password: '' })
     setIsLoggedIn(false);
     navigate('/');
   }

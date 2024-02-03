@@ -1,34 +1,29 @@
-# Desenvolvendo o Dio Bank
-desenvolvido por [Nathally Souza](https://github.com/nathyts)
+# Desafio DioBank - Projeto TypeScript Fullstack Developer
 
-#### Projeto desenvolvido com React
+Este repositório é parte do curso de **Formação TypeScript Fullstack Developer** da [Digital Innovation One (DIO)](https://www.dio.me/), onde o desafio proposto é criar o DioBank, uma aplicação bancária com foco na implementação de funcionalidades utilizando TypeScript.
 
-### Tecnologias
-- Typescript
+## Sobre a Digital Innovation One (DIO)
 
-### Como rodar o projeto
+A [Digital Innovation One](https://www.dio.me/) é uma plataforma educacional que oferece cursos online e gratuitos em diversas áreas da tecnologia. O curso de Formação TypeScript Fullstack Developer visa capacitar desenvolvedores a utilizar TypeScript em projetos de desenvolvimento web.
 
-1 - Clone o repositório
+## TypeScript: O que é e Sua Importância
 
-2 - Instale as dependeências
-    
-    npm install
+**TypeScript** é uma linguagem de programação que estende o JavaScript, adicionando tipagem estática opcional. Ele ajuda os desenvolvedores a escrever código mais robusto, identificar erros em tempo de compilação e aumentar a produtividade no desenvolvimento de aplicativos web.
 
-3 - Execute o projeto
+Para saber mais sobre TypeScript, consulte a [documentação oficial](https://www.typescriptlang.org/).
 
-    npm start
+## Desafio DioBank
 
-#### Desafios
-[ ] Crie os componentes referentes aos elementos na página inicial
-  ok - Crie um componente para o header, com o título da aplicação
-  ok - Crie um componente para o botão, que aceite onClick como uma das props do componente
-  - Refatore o componente Card para receber o formulário de login. Ao invés de chamar elemento por elemento na página inicial, apenas o componente Card deve ser chamado.
+O projeto DioBank consiste na implementação de várias funcionalidades bancárias utilizando TypeScript. O repositório inclui todos os itens solicitados no desafio:
 
-[ ] Crie uma função de Boas vindas
-  - Ao clicar no botão, deve aparecer um alert com uma mensagem de boas vindas
-  - Crie o teste unitário da função
+- [x] Incluir validação da senha no campo de login
+- [x] Implementar um sistema de login com a Context API
+- [x] Criar uma página para exibir as informações do usuário
 
-Monochromatic - Three colors of the same hue with luminance values +/-50%. Subtle and refined.
-1) #2596be;
-2) #041014;
-3) #145369;
+## Acesso à Aplicação
+
+Para acessar a aplicação DioBank, [clique aqui](#) (link da aplicação).
+
+**Observação:** Os itens de deploy no Netlify e compartilhamento do link da página não estão incluídos neste README.
+
+Explore o código-fonte e aproveite para aprender mais sobre TypeScript e desenvolvimento web! 🚀

@@ -1,7 +1,9 @@
 import { changeLocalStorage, createLocalStorage, getAllLocalStorage } from './storage'
 
 const diobank = {
-  login: false
+  login: false,
+  user: '',
+  password: ''
 }
 
 const mockSetItem = jest.spyOn(Storage.prototype, 'setItem');

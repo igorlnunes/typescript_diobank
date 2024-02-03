@@ -22,13 +22,6 @@ const Conta = () => {
 
   !isLoggedIn && navigate('/')
 
-  const actualData = new Date();
-
-
-  if (userData && id !== userData.id) {
-    navigate('/');
-
-  }
 
 
   useEffect(() => {
@@ -38,7 +31,14 @@ const Conta = () => {
     }
 
     getData();
-  }, [])
+
+    if (userData && id !== userData.id) {
+      navigate('/');
+
+    }
+  }, []);
+
+  const actualData = new Date();
 
 
   return (
@@ -53,8 +53,9 @@ const Conta = () => {
             ) :
             (
               <>
-                <CardInfo mainContent={`Bem-vinda ${userData?.name}`} content={`${actualData.getDay() + 21}/${actualData.getMonth() + 1}/${actualData.getFullYear()} - ${actualData.getHours()}:${actualData.getMinutes()}`} />
+                <CardInfo mainContent={`Bem-vinda ${userData?.name}`} content={`${actualData.getDate()}/${actualData.getMonth() + 1}/${actualData.getFullYear()} - ${actualData.getHours()}:${actualData.getMinutes() + 1}`} />
                 <CardInfo mainContent={`Saldo:`} content={`R$ ${userData.balance}`} />
+                <CardInfo mainContent='Informações da conta:' content='Clique aqui' rte='/infoconta' />
 
               </>
             )
